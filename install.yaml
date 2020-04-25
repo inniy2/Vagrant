@@ -1,0 +1,10 @@
+---
+- hosts: default
+  become: yes
+  user: vagrant
+  gather_facts: yes
+  
+
+  roles:
+    - role: apache2
+
